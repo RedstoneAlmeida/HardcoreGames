@@ -10,6 +10,7 @@ use pocketmine\Server;
 class Arena{
   
   public $players = [];
+  public $arenaworld;
   
   public function getPlayers(){
       return \in_array($player->getName(), $this->players);
@@ -21,6 +22,10 @@ class Arena{
   
   public function delPlayer(Player $player){
       unset($this->players[$player->getName()]);
+  }
+  
+  public function getArenaWorld(){
+      return $this->arenaworld;
   }
   
 }
