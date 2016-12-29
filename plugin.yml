@@ -1,0 +1,7 @@
+name: HardcoreGames
+main: HG/Loader
+version: "1.0.0"
+api: 1.0.0
+load: STARTUP
+author: RedstoneAlmeida
+description: HardcoreGames Plugin
