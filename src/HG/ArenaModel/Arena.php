@@ -28,4 +28,8 @@ class Arena{
       return $this->arenaworld;
   }
   
+  public function setArenaWorld($arenaworld){
+      $this->arenaworld = $arenaworld;
+  }
+  
 }
